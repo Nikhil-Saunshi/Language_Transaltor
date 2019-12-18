@@ -12,7 +12,7 @@ try:
                                        "particular areas of applied mathematics, applied science, and types of "
                                        "application. See glossary of engineering.")
     print(translation)
-    # with open('./test.txt', mode='r') as my_file:
+    # with open('./test.txt', mode='r') as my_file: #You can load a file to convert here using python I/O
     #     text = my_file.read()
     #     translation = translator.translate(text)
 except FileNotFoundError as e:
